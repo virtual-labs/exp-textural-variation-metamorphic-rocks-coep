@@ -1,39 +1,88 @@
 {
-  "version": 2.0,
-  "questions": [
-    {
-      "question": "This is a Sample Question 1?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "This is a Sample Question 2?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
-    }
-  ]
+	"version": 2.0,
+	"questions": [{
+			"question": "Which structure has lens-like shaped structure?",
+			"answers": {
+				"a": "Cataclastic structure",
+				"b": "Schistose structure",
+				"c": "Augen structure",
+				"d": "Maculose structure"
+			},
+			"explanations": {
+				"a": "Explanation",
+				"b": "Explanation ",
+				"c": "Explanation :In augen structure, some resistant minerals get deformed into thin, lenticular, lens like shapes giving a characteristic appearance to the rock.",
+				"d": "Explanation "
+			},
+			"correctAnswer": "b",
+			"difficulty": "beginner"
+		},
+		{
+			"question": "What are the rocks showing granulose structure called?",
+			"answers": {
+				"a": "Granolites",
+				"b": "Granulites",
+				"c": "Granilites",
+				"d": "Granites"
+			},
+			"explanations": {
+				"a": "Explanation ",
+				"b": "Explanation :The individual grains may be irregular in outline but are interlocking. Foliation is absent or negligible. Rocks with granular structure are termed as granulites.",
+				"c": "Explanation 2",
+				"d": "Explanation 2"
+			},
+			"correctAnswer": "b",
+			"difficulty": "beginner"
+		},
+		{
+			"question": "The cleavage also called slaty cleavage is_____",
+			"answers": {
+				"a": "Flow cleavage",
+				"b": "Fracture cleavage",
+				"c": "Fine cleavage",
+				"d": "Medium cleavage"
+			},
+			"explanations": {
+				"a": "Explanation ",
+				"b": "Explanation :Fracture cleavage is developed due to parallel orientation of very fine structures, often called microfractures, that may be developed in minerals of a rock undergoing dynamic metamorphism",
+				"c": "Explanation ",
+				"d": "Explanation "
+			},
+			"correctAnswer": "b",
+			"difficulty": "beginner"
+		},
+		{
+			"question": "The cleavage involving microfractures is_______",
+			"answers": {
+				"a": "Flow cleavage",
+				"b": "Fracture cleavage",
+				"c": "Fine cleavage",
+				"d": "Medium cleavage"
+			},
+			"explanations": {
+				"a": "Explanation ",
+				"b": "Explanation :Fracture cleavage is developed due to parallel orientation of very fine structures, often called microfractures, that may be developed in minerals of a rock undergoing dynamic metamorphism.",
+				"c": "Explanation ",
+				"d": "Explanation "
+			},
+			"correctAnswer": "b",
+			"difficulty": "beginner"
+		}, {
+			"question": "Schistose is resulted due to ____",
+			"answers": {
+				"a": "Recrystallization",
+				"b": "Reforming",
+				"c": "Reorientation",
+				"d": "Recrystallization and reorientation"
+			},
+			"explanations": {
+				"a": "Explanation ",
+				"b": "Explanation :Schistose results due to combines effect of heat and pressure during metamorphism involving both recrystallization and reorientation of platy minerals as irregular layers or bands.",
+				"c": "Explanation ",
+				"d": "Explanation "
+			},
+			"correctAnswer": "b",
+			"difficulty": "beginner"
+		}
+	]
 }
