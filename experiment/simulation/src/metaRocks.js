@@ -68,7 +68,7 @@ var thoery='<div class="container col-sm-12"  id="theory">'
 	+'such as mica or chlorite are nearly all aligned parallel to one another.'
 
 	+'</p>'
-	+'<p><b>The five basic metamorphic textures with typical rock types are:</b></p>'
+	+'<p><b>The four basic metamorphic textures with typical rock types are:</b></p>'
 	+'<ul>'
 	+'<li><b>Slaty- </b>slate and phyllite; the foliation is called slaty cleavage</li>'
 	+'<li><b>Schistose-</b> schist; the foliation is called schistocity</li>'
