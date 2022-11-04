@@ -195,16 +195,6 @@ masterJson = {
 	"src": "images/SLATE 1.jpg",
 	"src1": "images/SLATE 2.jpg",
 	"src2": "images/SLATE 3.jpg",
-	"chemical_Classification": "Medium- to high-grade foliated metamorphic rock.",
-	"colour": "Black, dark green, dark brown",
-	"streak": "White and occasionally greyish flakes",
-	"luster": "Pearly",
-	"mohs_Hardness": "2.5-3",
-	"cleavage": "Perfect",
-	"diaphaneity": "Transparent to translucent to opaque	",
-	"gravity": "2.7-3.4",
-	"chemical_Composition": "Platy minerals such as muscovite, chlorite, talc, sericite, biotite, and graphite",
-	"specialProperties": " Schist is a type of metamorphic rock in which lamellar minerals, such as muscovite, biotite, and chlorite, or prismatic minerals, such as hornblende and tremolite, are oriented parallel to a secondary platy or laminated structure termed the schistosity. ",
 	"question": tempQuestionArr
 };
 
