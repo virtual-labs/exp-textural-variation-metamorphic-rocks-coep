@@ -11,16 +11,16 @@ Textures of metamorphic rocks fall into two broad groups, **FOLIATED and NON-FOL
 - Slaty: slate and phyllite; the foliation is called 'slaty cleavage'
 - Schistose: schist; the foliation is called 'schistocity'
 - Gneissose: gneiss; the foliation is called 'gneisocity'
-- Granoblastic: granulite, some marbles and quartzite.
+- Granoblastic: granulite, some marbles and quartzite.<br>
 ![meta1*************************************************](images/meta1.jpg)
-**Quartzite** is a non-foliated metamorphic rock that is produced by the metamorphism of **sandstone**. It is composed primarily of **quartz**. The specimen above is about two inches (five centimeters) across.
+<br>**Quartzite** is a non-foliated metamorphic rock that is produced by the metamorphism of **sandstone**. It is composed primarily of **quartz**. The specimen above is about two inches (five centimeters) across.<br>
 ![meta2*************************************************](images/meta2.jpg)
-**Phyllite** is a foliated metamorphic rock that is made up mainly of very fine-grained mica. The surface of phyllite is typically lustrous and sometimes wrinkled. It is intermediate in grade between **slate** and **schist**. 
-![meta3*************************************************](images/meta3.jpg)
+<br>**Phyllite** is a foliated metamorphic rock that is made up mainly of very fine-grained mica. The surface of phyllite is typically lustrous and sometimes wrinkled. It is intermediate in grade between **slate** and **schist**. <br>
+![meta3*************************************************](images/meta3.jpg)<br>
 **Marble** is a non-foliated metamorphic rock that is produced from the metamorphism of **limestone** or **dolostone**. It is composed primarily of calcium carbonate. 
-![meta4*************************************************](images/meta4.jpg)
+<br>![meta4*************************************************](images/meta4.jpg)<br>
 Schist is a metamorphic rock with well-developed foliation. It often contains significant amounts of mica which allow the rock to split into thin pieces. It is a rock of intermediate metamorphic grade between phyllite and gneiss.
-![meta5*************************************************](images/meta5.jpg)
+<br>![meta5*************************************************](images/meta5.jpg)<br>
 **Amphibolite** is a non-foliated metamorphic rock that forms through recrystallization under conditions of high viscosity and directed pressure. It is composed primarily of **hornblende** (amphibole) and **plagioclase**, usually with very little **quartz**. 
-![meta6*************************************************](images/meta6.jpg)
+<br>![meta6*************************************************](images/meta6.jpg)<br>
 **Gneiss** is a foliated metamorphic rock that has a banded appearance and is made up of granular mineral grains. It typically contains abundant **quartz** or **feldspar** minerals. 
