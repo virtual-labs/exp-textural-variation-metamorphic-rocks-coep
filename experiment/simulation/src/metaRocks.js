@@ -4,10 +4,10 @@ var mineralCount=1;
 let  SampleRandomArr = [];
 function randomIntFromInterval(){ 
 	do {
-//	  	let num = Math.floor(Math.random() * 4 + 1);
-//	  	SampleRandomArr.push(num);
-		SampleRandomArr.push(i);
-	  	i++;
+	  	let num = Math.floor(Math.random() * 4 + 1);
+	  	SampleRandomArr.push(num);
+//		SampleRandomArr.push(i);
+//	  	i++;
 	   	SampleRandomArr =  SampleRandomArr.filter((item, index) => {
 	    return  SampleRandomArr.indexOf(item) === index;
 	  });
@@ -24,11 +24,11 @@ var htm='<div class="row">'
 			+'<div class="col-sm-1">'
 			+'</div>'
 			+'<div class="col-sm-2">'
-			+'<strong><span style="float:right;">Select metamorphic rocks</span></strong>'
+			+'<strong><span style="float:right;">Select metamorphic texture</span></strong>'
 			+'</div>'
 			+'<div class="col-sm-7">'
 			+'<select class="custom-select" id="mineral"  >'
-			+'<option>------ Select metamorphic rock ------</option>'
+			+'<option>------ Select metamorphic texture ------</option>'
 	for(i=0;i<SampleRandomArr.length;i++){
 			htm+='<option  value="'+ SampleRandomArr[i]+'">' +tempMasterJson.demo[i].dummyName+'</option>'
 		}
@@ -43,9 +43,9 @@ var htm='<div class="row">'
 // $("#main-div").html(htm);
 var thoery='<div class="container col-sm-12"  id="theory">'
 	+'<div class="card ">'
-	+'<center><p class="blink"> Select metamorphic rocks to start the simulation!!! </p></center>'
+	+'<center><p class="blink"> Select metamorphic texture to start the simulation!!! </p></center>'
 	+'<div class="card-header heading_div">'
-	+'<b><center>Basics to know about metamorphic rocks</center></b>'
+	+'<b><center>Basics to know about metamorphic texture</center></b>'
 	+'</div>'
 	+'<div class="card-body">'
 	+'<p><b>MEGASCOPIC IDENTIFICATION AND DESCRIPTION OF METAMORPHIC ROCKS:</b><br>'
@@ -121,11 +121,11 @@ function mineralSelect(){
 					 	previewPanel();
 					 	text+='</div>'
 						+'<br>'
-					 	+'<strong><b>what is the name of above metamorphic rocks?</b></strong>'
+					 	+'<strong><b>what is the name of above metamorphic texture?</b></strong>'
 					 	+'<br>'
 					 	+'<br>'
 					 	+'<select class="custom-select" id="originalName"  >'
-					 	+'<option  value="">------ Select original name of metamorphic rocks ------</option>'
+					 	+'<option  value="">------ Select original name of metamorphic texture ------</option>'
 				for(i=0;i<tempMasterJson.demo.length;i++){	
 					text+='<option  value="'+tempMasterJson.demo[i].mineralId+'">'+tempMasterJson.demo[i].textureName +'</option>'
 				}
@@ -247,7 +247,7 @@ function mineralSelect(){
 						 				
 						 			  	+'<div class="container col-lg-6 col-sm-12  ">'
 						 				+'<div class="container heading_div">'
-						 				+'<b><center>IDENTIFICATIONS OF METAMORPHIC ROCKS </center></b>'
+						 				+'<b><center>IDENTIFICATIONS OF METAMORPHIC TEXTURE </center></b>'
 						 				+'</div>'
 						 			
 						 				+'<div class="container col-lg-12 col-sm-12" style=" height: 700px; overflow-y: scroll;margin:10px;">'
@@ -294,7 +294,7 @@ function mineralSelect(){
 						 	else
 						 		{
 						 	    var str1='<div class="alert alert-success">'
-						 	    	+'<strong>Select correct original name of metamorphic rocks name.  </strong>'
+						 	    	+'<strong>Select correct original name of metamorphic rocks texture.  </strong>'
 			 			  	+'</div>'
 						 	    	$("#error").html(str1);
 						 	}
@@ -312,7 +312,7 @@ function smtQuestion(){
 	var wrongAnsCount=0;
 	var notSelected=0;
 	
-	$("#helpTip").html("You need to perform the task for all the available metamorphic rocks to complete the experiment. Find \"Click here to select next metamorphic rocks\" button to continue.");
+	$("#helpTip").html("You need to perform the task for all the available metamorphic texture to complete the experiment. Find \"Click here to select next metamorphic texture\" button to continue.");
 	$("#helpTip").addClass("blink");
 	
 	var questionLength=tempMasterJson.demo[copyMineralid].question.length;
@@ -350,7 +350,7 @@ function smtQuestion(){
 		$('#mineral :selected').attr('disabled', true);
 		var answerPanel,AddResult;	
 		resultModal();
-		answerPanel='<button type="button" class="btn btn-success blink position"   id="selectAnotherMineral">Click here to select next metamorphic rocks</button>'
+		answerPanel='<button type="button" class="btn btn-success blink position"   id="selectAnotherMineral">Click here to select next metamorphic Texture</button>'
 			+'<div class="summary"><strong id="correctAns" enable="true">Correct Answer :'+correctAnsCount+' </strong><br>'
 			+'<strong id="wrongAns">Wrong Answer : '+wrongAnsCount+'</strong><br>'
 	  		+'<strong id="notSelected">Skipped Question : '+notSelected+' </strong><br>'
@@ -358,7 +358,7 @@ function smtQuestion(){
 			
 			$("#modalHeading").html("Selected metamorphic rocks : " + tempMasterJson.demo[copyMineralid].textureName);
 		
-			$("#AddResult").html("<center><strong style='color:green;'>Click on OK button to continue next texture.</strong></center><br/>");					 
+			$("#AddResult").html("<center><strong style='color:green;'>Click on OK button to continue</strong></center><br/>");					 
 		
 		if(mineralCount!=maxIndexArr){
 			 	$("#answerPanel").html(answerPanel);
