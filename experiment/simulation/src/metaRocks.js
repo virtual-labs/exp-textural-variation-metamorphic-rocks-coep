@@ -4,7 +4,7 @@ var mineralCount=1;
 let  SampleRandomArr = [];
 function randomIntFromInterval(){ 
 	do {
-//	  	let num = Math.floor(Math.random() * 26 + 1);
+//	  	let num = Math.floor(Math.random() * 4 + 1);
 //	  	SampleRandomArr.push(num);
 		SampleRandomArr.push(i);
 	  	i++;
@@ -68,7 +68,7 @@ var thoery='<div class="container col-sm-12"  id="theory">'
 	+'such as mica or chlorite are nearly all aligned parallel to one another.'
 
 	+'</p>'
-	+'<p><b>The five basic metamorphic textures with typical rock types are:</b></p>'
+	+'<p><b>The four basic metamorphic textures with typical rock types are:</b></p>'
 	+'<ul>'
 	+'<li><b>Slaty- </b>slate and phyllite; the foliation is called slaty cleavage</li>'
 	+'<li><b>Schistose-</b> schist; the foliation is called schistocity</li>'
@@ -281,7 +281,7 @@ function mineralSelect(){
 				 						}
 				 				text+='</div></div></b>'
 				 					}
-						 		text+='<br><button type="button" class="btn btn-success "   id="smt" data-toggle="modal"   >Submit</button></div>'
+						 		text+='<br><button type="button" class="btn btn-success "   id="smt" data-toggle="modal"   data-target="#myModal">Submit</button></div>'
 						 		+'</div>'
 						 		// add model data-target="#myModal"
 						 		
@@ -356,19 +356,9 @@ function smtQuestion(){
 	  		+'<strong id="notSelected">Skipped Question : '+notSelected+' </strong><br>'
 		  	+'</div>'
 			
-			$("#modalHeading").html("Selected metamorphic rocks : " + tempMasterJson.demo[copyMineralid].originalName);
-		AddResult='<p class="properties"></p>'
-				  +'<p class="properties"><b>Chemical classification :</b> '+tempMasterJson.demo[copyMineralid].chemical_Classification+'</p>'
-				  +'<p class="properties"><b>Colour :</b> '+tempMasterJson.demo[copyMineralid].colour+'</p>'
-				  +'<p class="properties"><b>Streak :</b> '+tempMasterJson.demo[copyMineralid].streak+'</p>'
-				  +'<p class="properties"><b>Luster :</b> '+tempMasterJson.demo[copyMineralid].luster+'</p>'
-				  +'<p class="properties"><b>Mohs hardness :</b> '+tempMasterJson.demo[copyMineralid].mohs_Hardness+'</p>'
-				  +'<p class="properties"><b>Cleavage :</b> '+tempMasterJson.demo[copyMineralid].cleavage+'</p>'
-				  +'<p class="properties"><b>Diaphaneity :</b> '+tempMasterJson.demo[copyMineralid].diaphaneity+'</p>'
-				  +'<p class="properties"><b>Gravity :</b> '+tempMasterJson.demo[copyMineralid].gravity+'</p>'
-				  +'<p class="properties"><b>Chemical composition :</b> '+tempMasterJson.demo[copyMineralid].chemical_Composition+'</p>'
-				  +'<p class="properties"><b>Special properties :</b> '+tempMasterJson.demo[copyMineralid].specialProperties+'</p>'
-				 
+			$("#modalHeading").html("Selected metamorphic rocks : " + tempMasterJson.demo[copyMineralid].textureName);
+		
+			$("#AddResult").html("<center><strong style='color:green;'>Click on OK button to continue next texture.</strong></center><br/>");					 
 		
 		if(mineralCount!=maxIndexArr){
 			 	$("#answerPanel").html(answerPanel);
@@ -382,7 +372,7 @@ function smtQuestion(){
 				$("#answerPanel").html(answerPanel);
 				$("#selectAnotherMineral").hide();
 //				$("#modalHeading").html("Summary");
-				$("#AddResult").html("<center><strong style='color:green;'>Congratulation!!<br> You have completed the experiment successfully.</strong></center><br/>" + AddResult);				
+				$("#AddResult").html("<center><strong style='color:green;'>Congratulation!!<br> You have completed the experiment successfully.</strong></center><br/>");				
 				$("#ModalFooter").html('<button type="button" class="btn btnStyle"  data-dismiss="modal" style="padding: 5px 20px;" >OK</button><button type="button" class="btn btnStyle"  data-dismiss="modal" id="refreshPage" style="padding: 5px 20px;" >Exit</button>');
 			}
 		}
