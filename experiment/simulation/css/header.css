@@ -173,7 +173,6 @@ header h2 {
 	header h2 {
 		font-size: 19px;
 	}
-	
 }
 
 @media screen and (min-width: 330px) and (max-width: 768px) {
@@ -269,7 +268,5 @@ background: linear-gradient(90deg, rgba(125,176,169,1) 0%, rgba(78,109,114,1) 31
         //margin: 10px;
     }
 }
-
-
 
 /*question css end*/
