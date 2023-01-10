@@ -24,7 +24,7 @@ var htm='<div class="row">'
 			+'<div class="col-sm-1">'
 			+'</div>'
 			+'<div class="col-sm-2">'
-			+'<strong><span style="float:right;">Select metamorphic texture</span></strong>'
+			+'<strong><center><span style="float:center;">Select metamorphic texture</span></center></strong>'
 			+'</div>'
 			+'<div class="col-sm-7">'
 			+'<select class="custom-select" id="mineral"  >'
@@ -155,31 +155,31 @@ function mineralSelect(){
 				
 						if("src1" in tempMasterJson.demo[copyMineralid] ){
 						text+='<div class="col-lg-2" id="previewPanel1" >'
-							+'<img id="preview1"  class="previewImg" src="'+tempMasterJson.demo[copyMineralid].src1+'" width="90" height="90" ><br>'
+							+'<center><img id="preview1"  class="previewImg" src="'+tempMasterJson.demo[copyMineralid].src1+'" width="90" height="90" ></center><br>'
 							+'</div>'
 							$("#previewPanel").append(text);
 						}
 						if("src2" in tempMasterJson.demo[copyMineralid]){
 							text+='<div class="col-lg-2" id="previewPanel2" >'
-							+'<img id="preview2"  class="previewImg" src="'+tempMasterJson.demo[copyMineralid].src2+'" width="90" height="90" ><br>'
+							+'<center><img id="preview2"  class="previewImg" src="'+tempMasterJson.demo[copyMineralid].src2+'" width="90" height="90" ></center><br>'
 							+'</div>'
 							$("#previewPanel").append(text);
 						}
 						if("src3" in tempMasterJson.demo[copyMineralid]){
 							text+='<div class="col-lg-2" id="previewPanel3" >'
-							+'<img id="preview3"  class="previewImg" src="'+tempMasterJson.demo[copyMineralid].src3+'" width="90" height="90" ><br>'
+							+'<center><img id="preview3"  class="previewImg" src="'+tempMasterJson.demo[copyMineralid].src3+'" width="90" height="90" ></center><br>'
 							+'</div>'
 							$("#previewPanel").append(text);
 						}
 						if("src4" in tempMasterJson.demo[copyMineralid]){
 							text+='<div class="col-lg-2" id="previewPanel4" >'
-							+'<img id="preview4"  class="previewImg" src="'+tempMasterJson.demo[copyMineralid].src4+'" width="90" height="90" ><br>'
+							+'<center><img id="preview4"  class="previewImg" src="'+tempMasterJson.demo[copyMineralid].src4+'" width="90" height="90" ></center><br>'
 							+'</div>'
 							$("#previewPanel").append(text);
 						}
 						if("src" in tempMasterJson.demo[copyMineralid] ){
 							text+='<div class="col-lg-2" id="previewPanel5" >'
-								+'<img id="preview5"  class="previewImg" src="'+tempMasterJson.demo[copyMineralid].src+'" width="90" height="90" ><br>'
+								+'<center><img id="preview5"  class="previewImg" src="'+tempMasterJson.demo[copyMineralid].src+'" width="90" height="90" ></center><br>'
 								+'</div>'
 								$("#previewPanel").append(text);
 							}
