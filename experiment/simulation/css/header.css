@@ -18,7 +18,11 @@ header {
 	background: rgb(125,176,169);
 background: linear-gradient(90deg, rgba(125,176,169,1) 0%, rgba(78,109,114,1) 31%, rgba(33,44,62,1) 100%);
 }
-
+.previewImg {
+	height:100px;
+	width:250px;
+		border: 3px solid black;
+}
  svg {margin-top:0px;
            margin-bottom:0px;
            margin-right:0px;
@@ -169,9 +173,10 @@ header h2 {
 	header h2 {
 		font-size: 19px;
 	}
+	
 }
 
-@media screen and (min-width: 469px) and (max-width: 768px) {
+@media screen and (min-width: 330px) and (max-width: 768px) {
 	#main-div {
 		width: 100%;
 		height: auto;
@@ -179,15 +184,92 @@ header h2 {
 		border: 3px solid #666;
 	}
 	header img {
-		width: 101px;
+		width: 50px;
 	}
-	header h1 {
-		font-size: 20px;
-		margin: 25px;
-	}
+	
 	header h2 {
 		font-size: 19px;
 	}
+	
+	#colgName
+	{
+		border-radius:10px;
+		white-space: pre-line;
+		margin-left:0px;
+		margin-right:0px;
+		color:#fff;
+		font-size:16px;
+		background: rgb(125,176,169);
+background: linear-gradient(90deg, rgba(125,176,169,1) 0%, rgba(78,109,114,1) 31%, rgba(33,44,62,1) 100%);
+	}
+	#colgNamebold
+	{
+		padding:5px 10px 20px 5px;
+	}
+	
 }
+@media screen and (min-width: 330px) and (max-width: 500px) {
+	
+	#colgName
+	{border-radius:10px;
+		white-space: pre-line;
+		margin-left:0px;
+		margin-right:0px;
+		color:#fff;
+		font-size:13px;
+		background: rgb(125,176,169);
+background: linear-gradient(90deg, rgba(125,176,169,1) 0%, rgba(78,109,114,1) 31%, rgba(33,44,62,1) 100%);
+	}
+	
+	.previewImg
+	{
+		margin-bottom:20px;;
+		border: 3px solid black;
+		width:150px;
+		height:150px;
+	}
+	#myresult
+	{width:250px;
+		height:200px;
+		
+	}
+	#SelectOriginalName
+	{
+		margin-left:25px;
+	}
+	#originalName
+	{
+		margin-left:15px;
+		width:320px;
+		
+	}
+	#myModal
+	{
+		
+		width:400px;
+		
+	}
+	.img-zoom-lens {
+    position: absolute;
+    border: 1px solid #d4d4d4;
+    width: 37px;
+    height: 32px;
+	}
+	#myimage
+	{
+		width:330px;
+	}
+	.alert {
+    padding: 10px 62px 10px 62px;
+	margin-left:5px;
+	}
+	 .modal .modal-dialog {
+        position:relative;
+        width:70%;
+        //margin: 10px;
+    }
+}
+
+
 
 /*question css end*/
