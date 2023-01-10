@@ -20,7 +20,7 @@ background: linear-gradient(90deg, rgba(125,176,169,1) 0%, rgba(78,109,114,1) 31
 }
 .previewImg {
 	height:100px;
-	width:250px;
+	width:70px;
 		border: 3px solid black;
 }
  svg {margin-top:0px;
