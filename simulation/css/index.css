@@ -1,0 +1,104 @@
+body{
+	background-color:;
+}
+
+  * {box-sizing: border-box;}
+
+
+.img-zoom-container {
+  position: relative;
+  border:2px black;
+}
+
+.img-zoom-lens {
+  position: absolute;
+  border: 1px solid #d4d4d4;
+  /*set the size of the lens:*/
+  width: 50px;
+  height: 50px;
+}
+
+.img-zoom-result {
+  border: 1px solid #d4d4d4;
+  /*set the size of the result div:*/
+ width:auto;
+  height: 600px;
+}
+#mineralsName
+{
+	padding:50px 10px 10px 10px;
+	
+}
+.imgStyle
+{
+	 display: block;
+  margin-left: auto;
+  margin-right: auto;
+	width:500px;
+	 height:300px;
+	 margin:10px 10px 10px 0px;
+	 
+}
+.heading
+{
+	text-shadow: 2px 2px grey;
+	font-size:50px;
+	color:#fff;
+	text-align:center;
+/* 	margin-left:600px; */
+	padding:10px 10px 10px 10px;
+}
+.heading_div{
+	background-color:#362512;
+	color:red;
+	border-radius: 15px 50px;
+}
+#myModel
+{
+	background-color:grey;
+}
+
+.headingRow
+{
+	background-color:black;
+	margin-bottom:50px;
+}
+.modelTitleStyle
+{
+	background-color:black;
+	color:#fff;
+}
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+ 
+#mineralsName
+{
+	padding:50px 10px 10px 10px;
+	
+}
+.myImage
+{
+	width:300px;
+	 height: 300px;
+}
+h4{
+	color:red;
+}
+
+@media screen and (min-width: 300px)
+ {
+/*  .myImage */
+/* { */
+/* 	width:200px; */
+/* 	 height: 300px; */
+/* } */
+  .img-zoom-result
+   {
+  	width:none;
+	 height: 200px;
+   }
+
+}
+
