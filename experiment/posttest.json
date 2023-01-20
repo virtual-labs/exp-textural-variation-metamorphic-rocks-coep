@@ -9,12 +9,7 @@
         "c": "Metamorphism",
         "d": "Metagenesis"
       },
-      "explanations": {
-        "a": "Explanation ",
-        "b": "Explanation ",
-        "c": "Explanation :Metamorphism is the term used to express the process responsible for all the changes that take place in an original rock under the influence of changes in the surrounding conditions of temperature, pressure and chemically active fluids.",
-        "d": "Explanation "
-      },
+      
       "correctAnswer": "c",
       "difficulty": "beginner"
     },
@@ -26,12 +21,7 @@
         "c": "Pressure",
         "d": "Chemically active fluids"
       },
-      "explanations": {
-        "a": "Explanation :The factors affecting the metamorphism of the rocks are temperature, pressure and chemically fluids. Wind conditions do not affect the metamorphism in any way.",
-        "b": "Explanation ",
-        "c": "Explanation ",
-        "d": "Explanation "
-      },
+      
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
@@ -43,12 +33,7 @@
         "c": "Agents of changes",
         "d": "Tertiary aspects"
       },
-      "explanations": {
-        "a": "Explanation ",
-        "b": "Explanation ",
-        "c": "Explanation :Metamorphic changes in the rocks are primarily the result of three main factors that are also sometimes called agents of metamorphism: heat, pressure and chemically active fluids.",
-        "d": "Explanation "
-      },
+      
       "correctAnswer": "b",
       "difficulty": "beginner"
     },
@@ -60,12 +45,7 @@
         "c": "500° C",
         "d": "200° C"
       },
-      "explanations": {
-        "a": "Explanation ",
-        "b": "Explanation ",
-        "c": "Explanation ",
-		"d": "Explanation :Rocks are made up of minerals that are normally stable at temperature below 200° C. However when the temperature around these rocks changes due to one reason or the other, the mineral composition of the rocks undergoes some changes."
-      },
+      
       "correctAnswer": "d",
       "difficulty": "beginner"
     },
@@ -77,12 +57,7 @@
         "c": "3",
         "d": "4"
       },
-      "explanations": {
-        "a": "Explanation ",
-        "b": "Explanation : Any given rock at some depth below the surface is subjected to pressure from two sources: first, load of the overlying burden and second, from crustal movements.",
-        "c": "Explanation ",
-        "d": "Explanation "
-      },
+      
       "correctAnswer": "b",
       "difficulty": "beginner"
     }
