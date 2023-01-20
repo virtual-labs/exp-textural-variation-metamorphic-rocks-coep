@@ -1,4 +1,4 @@
-#### Procedure
+#### Step by step procedure
 1. Select "texture" from the Selection box. 
 2. Determine the correct rock's texture name for selected texture which is available at the left bottom side.
 3. If selected texture name is wrong re-attempt the selection. If selected texture name is right you will proceed to questionnaire based on texture.  
