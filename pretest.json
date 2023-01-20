@@ -1,0 +1,63 @@
+{
+	"version": 2.0,
+	"questions": [{
+			"question": "Which structure has lens-like shaped structure?",
+			"answers": {
+				"a": "Cataclastic structure",
+				"b": "Schistose structure",
+				"c": "Augen structure",
+				"d": "Maculose structure"
+			},
+			
+			"correctAnswer": "b",
+			"difficulty": "beginner"
+		},
+		{
+			"question": "What are the rocks showing granulose structure called?",
+			"answers": {
+				"a": "Granolites",
+				"b": "Granulites",
+				"c": "Granilites",
+				"d": "Granites"
+			},
+			
+			"correctAnswer": "b",
+			"difficulty": "beginner"
+		},
+		{
+			"question": "The cleavage also called slaty cleavage is_____",
+			"answers": {
+				"a": "Flow cleavage",
+				"b": "Fracture cleavage",
+				"c": "Fine cleavage",
+				"d": "Medium cleavage"
+			},
+			
+			"correctAnswer": "b",
+			"difficulty": "beginner"
+		},
+		{
+			"question": "The cleavage involving microfractures is_______",
+			"answers": {
+				"a": "Flow cleavage",
+				"b": "Fracture cleavage",
+				"c": "Fine cleavage",
+				"d": "Medium cleavage"
+			},
+			
+			"correctAnswer": "b",
+			"difficulty": "beginner"
+		}, {
+			"question": "Schistose is resulted due to ____",
+			"answers": {
+				"a": "Recrystallization",
+				"b": "Reforming",
+				"c": "Reorientation",
+				"d": "Recrystallization and reorientation"
+			},
+			
+			"correctAnswer": "b",
+			"difficulty": "beginner"
+		}
+	]
+}

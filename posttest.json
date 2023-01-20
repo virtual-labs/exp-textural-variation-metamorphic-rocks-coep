@@ -1,0 +1,65 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "What is the term used to express the process responsible for all the changes that take place in an original rock under the influence of changes?",
+      "answers": {
+        "a": "Hibernation",
+        "b": "Herbination",
+        "c": "Metamorphism",
+        "d": "Metagenesis"
+      },
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "The factor not affecting metamorphism is",
+      "answers": {
+        "a": "Wind conditions",
+        "b": "Temperature",
+        "c": "Pressure",
+        "d": "Chemically active fluids"
+      },
+      
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+	{
+      "question": "Factors are also called _______",
+      "answers": {
+        "a": "Primary aspects",
+        "b": "Agents of metamorphism",
+        "c": "Agents of changes",
+        "d": "Tertiary aspects"
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+	{
+      "question": "The temperature up to which minerals in rocks are stable is",
+      "answers": {
+        "a": "100° C",
+        "b": "50° C",
+        "c": "500° C",
+        "d": "200° C"
+      },
+      
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+	{
+      "question": "Any given rock at some depth below the surface is subjected to pressure from how many sources?",
+      "answers": {
+        "a": "1",
+        "b": "2",
+        "c": "3",
+        "d": "4"
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    }
+  ]
+}
